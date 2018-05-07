@@ -3,4 +3,6 @@
     height:100%;
 }
 
-#navbar{position:absolute}
+.cursor{color:#3498db!important}
+
+#intitial > nav{box-shadow:none!important; margin-bottom:7em}
