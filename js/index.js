@@ -116,5 +116,9 @@ $(document).ready(function(){
 
     }
 
+    $("#btn_down,#agencia").click(function(){
+        var aTag = $("#sobre_nos");
+        $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+    })
 
 });

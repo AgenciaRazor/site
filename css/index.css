@@ -1,8 +1,42 @@
+@font-face {
+    font-family: 'light'; /*a name to be used later*/
+    src: url('../font/OpenSans-Light.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'normal'; /*a name to be used later*/
+    src: url('../font/OpenSans-Light.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'bold'; /*a name to be used later*/
+    src: url('../font/OpenSans-Bold.ttf'); /*URL to font*/
+}
+
+@keyframes bounce {
+    0%   {padding-top:0px}
+    50%  {padding-top:5px}
+    100% {padding-top:0px}
+}
+
+
+html{font-family:'normal'}
+h1{font-family:'bold'}
+
+#btn_down{
+    cursor:pointer;
+    animation: bounce 1s infinite;
+}
+
 #intitial{
     background:url("../img/background.jpg");
     height:100%;
 }
 
+#mensagem{min-height:80px}
+#descricao{min-height:80px}
+
+.block_center{display:block!important; margin:0 auto}
 .cursor{color:#3498db!important}
 
 #intitial > nav{box-shadow:none!important; margin-bottom:7em}
