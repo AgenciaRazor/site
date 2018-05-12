@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    //$("body").niceScroll();
+
     pisca_cursor = 0;
     aux_pisca_cursor = true;
     escrevendo = false;
