@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: 'light_italic'; /*a name to be used later*/
+    src: url('../font/OpenSans-LightItalic.ttf'); /*URL to font*/
+}
+
+@font-face {
     font-family: 'normal'; /*a name to be used later*/
     src: url('../font/OpenSans-Light.ttf'); /*URL to font*/
 }
@@ -20,9 +25,14 @@
 }
 
 .b{font-family:'bold'}
+.light{font-family:'light'!important}
+.light_italic{font-family:'light_italic'!important}
+
+.bottom_50{margin-bottom:50px}
+.bottom_100{margin-bottom:100px}
 
 html{font-family:'normal'}
-h1{font-family:'bold'}
+
 
 #btn_down{
     cursor:pointer;

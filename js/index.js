@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
     //$("body").niceScroll();
+    $('.parallax').parallax();
 
     pisca_cursor = 0;
     aux_pisca_cursor = true;
