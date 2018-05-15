@@ -17,6 +17,10 @@
     font-family: 'bold'; /*a name to be used later*/
     src: url('../font/OpenSans-Bold.ttf'); /*URL to font*/
 }
+@font-face {
+    font-family: 'bold_italic'; /*a name to be used later*/
+    src: url('../font/OpenSans-BoldItalic.ttf'); /*URL to font*/
+}
 
 @keyframes bounce {
     0%   {padding-top:0px}
@@ -25,6 +29,7 @@
 }
 
 .b{font-family:'bold'}
+.b_italic{font-family:'bold_italic'}
 .light{font-family:'light'!important}
 .light_italic{font-family:'light_italic'!important}
 
